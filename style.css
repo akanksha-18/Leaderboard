@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light grey background */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.main_title {
+    color: #333333; /* Dark grey title color */
+    text-align: center;
+}
+
+.main_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main_form input {
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+}
+
+.main_form-submit-btn {
+    background-color: #4caf50; /* Green submit button */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.main_form-submit-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.main_error-prompter {
+    color: #ff0000; /* Red error prompt */
+    display: none;
+}
+
+.main_scoreboard-wrapper {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.main_scoreboard {
+    background-color: #eeeeee; /* Light grey scoreboard background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.main_player-name {
+    font-weight: bold;
+}
+
+.main_time-stamp {
+    color: #888888; /* Dark grey timestamp color */
+}
+
+.main_player-country {
+    margin-top: 10px;
+}
+
+.main_player-score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333333; /* Dark grey score color */
+}
+
+.main_scoreboard-btn-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.main_scoreboard-btn-container button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.main_scoreboard-btn-container button:hover {
+    background-color: #dddddd; /* Light grey on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
